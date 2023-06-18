@@ -9,8 +9,8 @@ public class Configuration {
     // Define beans for the objects you want to create this is basically an objecct made by spring it self
     @Bean
     public MyObject myObject() {
-        String name = "omkar";
-        int age = 24;
+        String name = "manish";
+        int age = 22;
         return new MyObject(name, age);
     }
 
